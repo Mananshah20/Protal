@@ -4,10 +4,9 @@ import ProfileLeft from "./ProfileLeft"
 import ProfileRight from "./ProfileRight"
 function Profile() {
     return (
-        <div className="profile">
+        <div className="profileflex">
             <Navbar></Navbar>
-            <div className="
-            ">
+            <div className="profile">
                 <div className="left">
                     <ProfileLeft></ProfileLeft>
                 </div>
